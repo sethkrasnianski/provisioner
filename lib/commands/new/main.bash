@@ -1,0 +1,3 @@
+new() {
+  echo "new VM";
+}
