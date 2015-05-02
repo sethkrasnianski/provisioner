@@ -1,3 +1,0 @@
-delete() {
-  echo "delete VM";
-}

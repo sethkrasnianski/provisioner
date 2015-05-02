@@ -1,6 +1,9 @@
-for file in "$( dirname "${BASH_SOURCE[0]}" )"/commands/*.bash; do
-  source "$file";
-done
+lib_dir="$( dirname "${BASH_SOURCE[0]}" )"
+command_dir=$lib_dir/commands
+
+source $command_dir/new/main.bash;
+
+# Options
 
 help() {
 cat <<EOF
