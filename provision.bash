@@ -5,7 +5,7 @@ set -o pipefail
 source lib/main.bash
 
 case $1 in
-    new )                   new
+    new )                   new $@
                             ;;
     delete )                delete
                             ;;
