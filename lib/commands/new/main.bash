@@ -1,6 +1,6 @@
 source $lib_dir/help/new.bash
 
-if [ -n "${DO_TOKEN+1}" ]; then
+if [ "$DO_TOKEN" = "" ]; then
   echo "DO_TOKEN required to make requests."
 else
   new() {
