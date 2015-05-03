@@ -37,6 +37,6 @@ else
       shift
     done
 
-    response_new $(request_new $name $region $size $image $backup $ssh_keys)
+    response_new $(request_new)
   }
 fi
