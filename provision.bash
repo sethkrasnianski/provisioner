@@ -12,7 +12,7 @@ fi
 case $1 in
     new )                   new $@
                             ;;
-    delete )                delete
+    delete )                delete $@
                             ;;
     -h | --help )           help
                             exit
