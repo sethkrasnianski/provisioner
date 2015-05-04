@@ -14,6 +14,8 @@ case $1 in
                             ;;
     delete )                delete $@
                             ;;
+    list )                  list
+                            ;;
     -h | --help )           help
                             exit
                             ;;
