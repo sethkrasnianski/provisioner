@@ -2,6 +2,7 @@ lib_dir="$( dirname "${BASH_SOURCE[0]}" )"
 command_dir=$lib_dir/commands
 
 source $command_dir/new/main.bash;
+source $command_dir/delete/main.bash;
 
 # Options
 
