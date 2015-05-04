@@ -2,6 +2,8 @@ lib_dir="$( dirname "${BASH_SOURCE[0]}" )"
 command_dir=$lib_dir/commands
 
 source $command_dir/new/main.bash;
+source $command_dir/delete/main.bash;
+source $command_dir/list/main.bash;
 
 # Options
 
@@ -13,6 +15,7 @@ cat <<EOF
   Commands:
     new                provisions new VM
     delete             delete provisioned VM by name
+    list               list provisioned VMs
 
   Options:
     -h, --help         display this message
